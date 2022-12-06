@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <header>
+        <i class="fas fa-times cross"></i>
+        <div class="image-text">
+          <span class="image">
+            <img class="main-logo" src="img/logo-light.png" alt="" />
+            <span class="logo-sm">
+              <img src="img/logo-sm.png" alt="" height="22" />
+            </span>
+          </span>
+
+          <!-- <div class="text logo-text">
+                  <span class="name">Left-Nav</span>
+                  <span class="profession">Web developer</span>
+                </div> -->
+        </div>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <p class="menu-p">MENU</p>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a class="accordion" href="#">
+                <i class="mdi mdi-speedometer"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+              <ul class="panel">
+                <li><a href="#">Analytics</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="mdi mdi-view-grid-plus-outline"></i>
+                <span class="text nav-text">Apps</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="mdi mdi-view-carousel-outline"></i>
+                <span class="text nav-text">Layouts</span>
+              </a>
+            </li>
+          </ul>
+          <p class="menu-p">Pages</p>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a class="accordion" href="#">
+                <i class="mdi mdi-account-circle-outline"></i>
+                <span class="text nav-text">Authentication</span>
+              </a>
+              <ul class="panel">
+                <li><a href="#">Sign IN</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="mdi mdi-sticker-text-outline"></i>
+                <span class="text nav-text">Pages</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="ri-rocket-line"></i>
+                <span class="text nav-text">Landing</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--           
+              <div class="bottom-content">
+               
+          
+                <li class="mode">
+                  <div class="sun-moon">
+                    <i class='bx bx-moon icon moon'></i>
+                    <i class='bx bx-sun icon sun'></i>
+                  </div>
+                 
+          
+                  <div class="toggle-switch">
+                    <span class="switch"></span>
+                  </div>
+                </li>
+              </div> -->
+      </div>
+    </nav>
+
+    <section class="home-section">
+      <div class="header home-content">
+        <div class="search">
+          <div class="bar-icon"><i class="bx bx-menu"></i></div>
+          <div class="serch-w-input">
+            <input type="text" name="" id="" placeholder="Search..." />
+            <div class="search-icon">
+              <span class="mdi mdi-magnify search-widget-icon"></span>
+            </div>
+          </div>
+        </div>
+        <div class="header-nav">
+          <ul>
+            <li class="dropdown">
+              <button class="dropbtn">
+                <img
+                  id="header-lang-img"
+                  src="img/us.svg"
+                  alt="Header Language"
+                  class="rounded"
+                />
+              </button>
+              <div id="myDropdown" class="dropdown-content flag">
+                <a href="#home"
+                  ><img
+                    src="img/us.svg"
+                    alt="user-image"
+                    class="me-2 rounded"
+                  /><span class="align-middle">English</span></a
+                >
+                <a href="#about"
+                  ><img
+                    src="img/spain.svg"
+                    alt="user-image"
+                    class="me-2 rounded"
+                  /><span class="align-middle">Española</span></a
+                >
+                <a href="#contact"
+                  ><img
+                    src="img/germany.svg"
+                    alt="user-image"
+                    class="me-2 rounded"
+                  /><span class="align-middle">Deutsche</span></a
+                >
+              </div>
+            </li>
+            <li class="dropdown position-inherit">
+              <button class="dropbtn">
+                <i class="bx bx-category-alt fs-22"></i>
+              </button>
+              <div id="myDropdown1" class="dropdown-content dropdown-menu-lg">
+                <div class="web-app">
+                  <div class="wep-top">
+                    <h6>Web Apps</h6>
+                    <button>
+                      View All Apps
+                      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class="p-2">
+                    <div class="web-row">
+                      <div class="col">
+                        <a class="dropdown-icon-item" href="#!">
+                          <img src="img/github.png" alt="Github" />
+                          <span>GitHub</span>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a class="dropdown-icon-item" href="#!">
+                          <img src="img/bitbucket.png" alt="bitbucket" />
+                          <span>Bitbucket</span>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a class="dropdown-icon-item" href="#!">
+                          <img src="img/dribbble.png" alt="dribbble" />
+                          <span>Dribbble</span>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="web-row">
+                      <div class="col">
+                        <a class="dropdown-icon-item" href="#!">
+                          <img src="img/dropbox.png" alt="dropbox" />
+                          <span>Dropbox</span>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a class="dropdown-icon-item" href="#!">
+                          <img src="img/mail_chimp.png" alt="mail_chimp" />
+                          <span>Mail Chimp</span>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a class="dropdown-icon-item" href="#!">
+                          <img src="img/slack.png" alt="slack" />
+                          <span>Slack</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown position-inherit">
+              <button onclick="myFunction2()" class="dropbtn btn-cart">
+                <span class="badge blue-b">5</span>
+                <i class="bx bx-shopping-bag fs-22"></i>
+              </button>
+              <div id="myDropdown2" class="dropdown-content dropdown-menu-lg">
+                <div class="wep-top">
+                  <h6>My Cart</h6>
+                  <span class="badge-soft-yellow">5 items</span>
+                </div>
+                <div class="p-2 height-set">
+                  <div class="brand-flex">
+                    <div class="img-round">
+                      <img
+                        src="img/img-1.png"
+                        class="avatar-sm"
+                        alt="user-pic"
+                      />
+                    </div>
+                    <div class="flex-1">
+                      <h6 class="h6-flex-1">
+                        <a href="#" class="text-reset">Branded T-Shirts</a>
+                      </h6>
+                      <p class="flex-1-p">Quantity: <span>10 x $32</span></p>
+                    </div>
+                    <div class="px-2">
+                      <h5 class="m-0 fw-normal">
+                        $<span class="cart-item-price">320</span>
+                      </h5>
+                    </div>
+                    <div class="ps-2">
+                      <button type="button" class="remove-item-btn">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="brand-flex">
+                    <div class="img-round">
+                      <img
+                        src="img/img-2.png"
+                        class="avatar-sm"
+                        alt="user-pic"
+                      />
+                    </div>
+                    <div class="flex-1">
+                      <h6 class="h6-flex-1">
+                        <a href="#" class="text-reset">Bentwood Chair</a>
+                      </h6>
+                      <p class="flex-1-p">Quantity: <span>5 x $18</span></p>
+                    </div>
+                    <div class="px-2">
+                      <h5 class="m-0 fw-normal">
+                        $<span class="cart-item-price">$89</span>
+                      </h5>
+                    </div>
+                    <div class="ps-2">
+                      <button type="button" class="remove-item-btn">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="brand-flex">
+                    <div class="img-round">
+                      <img
+                        src="img/img-3.png"
+                        class="avatar-sm"
+                        alt="user-pic"
+                      />
+                    </div>
+                    <div class="flex-1">
+                      <h6 class="h6-flex-1">
+                        <a href="#" class="text-reset">Borosil Paper Cup</a>
+                      </h6>
+                      <p class="flex-1-p">Quantity: <span>3 x $250</span></p>
+                    </div>
+                    <div class="px-2">
+                      <h5 class="m-0 fw-normal">
+                        $<span class="cart-item-price">$750</span>
+                      </h5>
+                    </div>
+                    <div class="ps-2">
+                      <button type="button" class="remove-item-btn">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="brand-flex">
+                    <div class="img-round">
+                      <img
+                        src="img/img-1.png"
+                        class="avatar-sm"
+                        alt="user-pic"
+                      />
+                    </div>
+                    <div class="flex-1">
+                      <h6 class="h6-flex-1">
+                        <a href="#" class="text-reset">Branded T-Shirts</a>
+                      </h6>
+                      <p class="flex-1-p">Quantity: <span>10 x $32</span></p>
+                    </div>
+                    <div class="px-2">
+                      <h5 class="m-0 fw-normal">
+                        $<span class="cart-item-price">320</span>
+                      </h5>
+                    </div>
+                    <div class="ps-2">
+                      <button type="button" class="remove-item-btn">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="brand-flex">
+                    <div class="img-round">
+                      <img
+                        src="img/img-2.png"
+                        class="avatar-sm"
+                        alt="user-pic"
+                      />
+                    </div>
+                    <div class="flex-1">
+                      <h6 class="h6-flex-1">
+                        <a href="#" class="text-reset">Bentwood Chair</a>
+                      </h6>
+                      <p class="flex-1-p">Quantity: <span>5 x $18</span></p>
+                    </div>
+                    <div class="px-2">
+                      <h5 class="m-0 fw-normal">
+                        $<span class="cart-item-price">$89</span>
+                      </h5>
+                    </div>
+                    <div class="ps-2">
+                      <button type="button" class="remove-item-btn">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="brand-flex">
+                    <div class="img-round">
+                      <img
+                        src="img/img-3.png"
+                        class="avatar-sm"
+                        alt="user-pic"
+                      />
+                    </div>
+                    <div class="flex-1">
+                      <h6 class="h6-flex-1">
+                        <a href="#" class="text-reset">Borosil Paper Cup</a>
+                      </h6>
+                      <p class="flex-1-p">Quantity: <span>3 x $250</span></p>
+                    </div>
+                    <div class="px-2">
+                      <h5 class="m-0 fw-normal">
+                        $<span class="cart-item-price">$750</span>
+                      </h5>
+                    </div>
+                    <div class="ps-2">
+                      <button type="button" class="remove-item-btn">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="subtotal">
+                  <div class="account-total">
+                    <h5>Total:</h5>
+                    <h6>$3399.00</h6>
+                  </div>
+                  <a href="#" class="checkout">Checkout</a>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                <i class="bx bx-fullscreen fs-22"></i>
+              </button>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                <i class="bx bx-moon fs-22"></i>
+              </button>
+            </li>
+            <li class="dropdown position-inherit">
+              <button class="dropbtn btn-cart">
+                <span class="badge red-b">3</span>
+                <i class="bx bx-bell fs-22"></i>
+              </button>
+              <div id="myDropdown3" class="dropdown-content dropdown-menu-lg">
+                <div class="top-notification">
+                  <div class="content-notification">
+                    <h5>Notifications</h5>
+                    <span>4 New</span>
+                  </div>
+                  <div class="tabs">
+                    <ul class="tabs-nav">
+                      <li><a href="#tab-1">All 4</a></li>
+                      <li><a href="#tab-2">Messages</a></li>
+                      <li><a href="#tab-3">Alerts</a></li>
+                    </ul>
+                    <div class="tabs-stage">
+                      <div id="tab-1">
+                        <span class="brand-flex">
+                          <span class="img-round p-0">
+                            <img src="img/avatar-8.jpg" class="profile" alt="user-pic">
+                          </span>
+                          <span class="flex-1">
+                            <h6 class="h6-flex-1">
+                              <a href="#" class="text-reset">Sunil Kumar</a>
+                            </h6>
+                            <p class="flex-1-p notification-w">Answered to your comment on the cash flow forecast's
+                              graph 🔔.</p>
+                          </span>
+                          <span class="px-2">
+                            <input type="checkbox" class="checkbox-brand" name="" id="">
+                          </span>
+                        </span>
+                      </div>
+                      <div id="tab-2">
+                        <span class="brand-flex">
+                          <span class="img-round p-0">
+                            <img src="img/avatar-1.jpg" class="profile" alt="user-pic">
+                          </span>
+                          <span class="flex-1">
+                            <h6 class="h6-flex-1">
+                              <a href="#" class="text-reset">Sonam</a>
+                            </h6>
+                            <p class="flex-1-p notification-w">Answered to your comment on the cash flow forecast's
+                              graph 🔔.</p>
+                          </span>
+                          <span class="px-2">
+                            <input type="checkbox" class="checkbox-brand" name="" id="">
+                          </span>
+                        </span>
+                      </div>
+                      <div id="tab-3">
+                        <span class="brand-flex">
+                          <span class="img-round p-0">
+                            <img src="img/avatar-8.jpg" class="profile" alt="user-pic">
+                          </span>
+                          <span class="flex-1">
+                            <h6 class="h6-flex-1">
+                              <a href="#" class="text-reset">Ravi Kumar</a>
+                            </h6>
+                            <p class="flex-1-p notification-w">Answered to your comment on the cash flow forecast's
+                              graph 🔔.</p>
+                          </span>
+                          <span class="px-2">
+                            <input type="checkbox" class="checkbox-brand" name="" id="">
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown">
+              <button onclick="myFunction4()" class="dropbtn width-auto-set">
+                <span class="profile-d-f">
+                  <img
+                    class="rounded-circle header-profile-user"
+                    src="img/avatar-1.jpg"
+                    alt="Header Avatar"
+                  />
+                  <span class="Profile-text">
+                    <p class="Name">Anna Adame</p>
+                    <p class="Founder">Founder</p>
+                  </span>
+                </span>
+              </button>
+              <div id="myDropdown4" class="dropdown-content flag profile-color">
+                <a href="#home"
+                  ><i class="mdi mdi-account-circle text-muted"></i
+                  ><span class="align-middle">Profile</span></a
+                >
+                <a href="#about"
+                  ><i class="mdi mdi-message-text-outline text-muted"></i
+                  ><span class="align-middle">Española</span></a
+                >
+                <a href="#contact"
+                  ><i class="mdi mdi-calendar-check-outline"></i
+                  ><span class="align-middle">Deutsche</span></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clender">
+        <div class="left-clender"><h5>DASHBOARD</h5></div>
+        <div class="right-clender">
+          <ul class="breadcrumb m-0">
+            <li class="breadcrumb-item">
+              <a href="javascript: void(0);">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item">
+              <i class="fas fa-chevron-right custom-f-p"></i>
+            </li>
+            <li class="breadcrumb-item active">Dashboard</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="custom-padding">
+        <section class="dashboard-content">
+          <div class="content-first">
+            <div class="contetn-left">
+              <h6>Good Morning, Anna!</h6>
+              <p>Here's what's happening with your store today.</p>
+            </div>
+            <div class="content-right">
+              <input class="custom-datepicker" type="date" name="" id="" />
+              <button class="add-product">
+                <i class="fas fa-plus"></i> Add Product
+              </button>
+              <button class="heart">
+                <i class="fa fa-heartbeat" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="col-padding">
+          <ul class="four-dived">
+            <li>
+              <div class="earning-box">
+                <div class="total-1">
+                  <p class="gray-total">Total Earning</p>
+                  <p class="value-total text-green">+16.24 %</p>
+                </div>
+                <div class="usd-value">
+                  <div class="left-usd">
+                    <h4>$559.25k</h4>
+                    <a href="#">View net earnings</a>
+                  </div>
+                  <div class="right-usd">
+                    <button class="usd-button green-color">
+                      <i class="bx bx-dollar-circle"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="earning-box">
+                <div class="total-1">
+                  <p class="gray-total">ORDERS</p>
+                  <p class="value-total text-red">-3.57 %</p>
+                </div>
+                <div class="usd-value">
+                  <div class="left-usd">
+                    <h4>36,894</h4>
+                    <a href="#">View net earnings</a>
+                  </div>
+                  <div class="right-usd">
+                    <button class="usd-button blue-color">
+                      <i class="bx bx-shopping-bag"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="earning-box">
+                <div class="total-1">
+                  <p class="gray-total">CUSTOMERS</p>
+                  <p class="value-total text-green">+29.08 %</p>
+                </div>
+                <div class="usd-value">
+                  <div class="left-usd">
+                    <h4>183.35M</h4>
+                    <a href="#">See Details</a>
+                  </div>
+                  <div class="right-usd">
+                    <button class="usd-button yellow-color">
+                      <i class="bx bx-shopping-bag"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="earning-box">
+                <div class="total-1">
+                  <p class="gray-total">My Balance</p>
+                  <p class="value-total text-silver">+0.00 %</p>
+                </div>
+                <div class="usd-value">
+                  <div class="left-usd">
+                    <h4>$165.89k</h4>
+                    <a href="#">Withdraw money</a>
+                  </div>
+                  <div class="right-usd">
+                    <button class="usd-button red-color">
+                      <i class="bx bx-wallet"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+            panel.style.height = "0px";
+          } else {
+            panel.style.display = "block";
+            panel.style.height = "auto";
+          }
+        });
+      }
+    </script>
+
+    <script>
+      /*sidebar javascript start*/
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+          let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+          console.log(arrowParent);
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+
+      /*sidebar javascript end*/
+
+      /*droupdown javascript start*/
+      jQuery(document).ready(function (e) {
+        function t(t) {
+          e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut();
+          });
+        }
+        e(".dropbtn").click(function () {
+          var t = e(this)
+            .parents(".dropdown")
+            .children(".dropdown-content")
+            .is(":hidden");
+          e(".dropdown .dropdown-content").hide();
+          e(".dropdown .dropbtn").removeClass("active");
+          if (t) {
+            e(this)
+              .parents(".dropdown")
+              .children(".dropdown-content")
+              .toggle()
+              .parents(".dropdown")
+              .children(".dropdown-toggle")
+              .addClass("active");
+          }
+        });
+        e(document).bind("click", function (t) {
+          var n = e(t.target);
+          if (!n.parents().hasClass("dropdown"))
+            e(".dropdown .dropdown-content").hide();
+        });
+        e(document).bind("click", function (t) {
+          var n = e(t.target);
+          if (!n.parents().hasClass("dropdown"))
+            e(".dropdown .dropbtn").removeClass("active");
+        });
+      });
+      /*droupdown javascript end*/
+
+/*notifaction tabs start*/
+      // Show the first tab by default
+$('.tabs-stage div').hide();
+$('.tabs-stage div:first').show();
+$('.tabs-nav li:first').addClass('tab-active');
+
+// Change tab class and display content
+$('.tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.tabs-nav li').removeClass('tab-active');
+  $(this).parent().addClass('tab-active');
+  $('.tabs-stage div').hide();
+  $($(this).attr('href')).show();
+});
+/*notifaction tabs end*/
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("i.fas.fa-times.cross").click(function () {
+          $(".sidebar").addClass("close");
+        });
+      });
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/731f6c33b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

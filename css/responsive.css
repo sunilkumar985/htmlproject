@@ -1,0 +1,333 @@
+@media (min-width: 1230px) {
+    .four-dived li {
+        width: 24.7%;
+    }
+}
+
+@media  (min-width: 993px) and (max-width: 1200px) {
+    .sidebar.close {
+        width: 0px;
+        display: none;
+    }
+    .home-section {
+        left: 0px;
+        width: 100%;
+    }
+    .sidebar.close ~ .home-section {
+        left: 0px;
+        width: 100%;
+        top: 0px;
+    }
+    .cross {
+        display: block!important;
+      }
+    .serch-w-input {
+        display: none;
+    }
+    .bar-icon {
+        padding-top: 13px;
+    }
+    .bar-icon i {
+        font-size: 25px;
+    }
+    .Profile-text {
+        display: none;
+    }
+    .width-auto-set {
+        height: auto!important;
+        background-color: transparent;
+        padding: 0px!important;
+        margin-left: 3px;
+    }
+    .dropbtn {
+        font-size: 18px!important;
+        font-weight: 400;
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+    }
+    .dropbtn img {
+        height: 15px;
+    }
+    .header-profile-user {
+        width: 23px!important;
+        height: 23px!important;
+    }
+
+    .content-first {
+        display: block;
+    }
+
+    .contetn-left {
+        margin-bottom: 15px;
+    }
+
+    .four-dived li {
+        width: 32%;
+    }
+
+    .earning-box {
+        margin-bottom: 30px;
+    }
+}
+@media  (min-width: 768px) and (max-width: 992px) {
+    .sidebar.close {
+        width: 0px;
+        display: none;
+    }
+    .home-section {
+        left: 0px;
+        width: 100%;
+    }
+    .sidebar.close ~ .home-section {
+        left: 0px;
+        width: 100%;
+        top: 0px;
+    }
+    .cross {
+        display: block!important;
+      }
+    .serch-w-input {
+        display: none;
+    }
+    .bar-icon {
+        padding-top: 13px;
+    }
+    .bar-icon i {
+        font-size: 25px;
+    }
+    .Profile-text {
+        display: none;
+    }
+    .width-auto-set {
+        height: auto!important;
+        background-color: transparent;
+        padding: 0px!important;
+        margin-left: 3px;
+    }
+    .dropbtn {
+        font-size: 18px!important;
+        font-weight: 400;
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+    }
+    .dropbtn img {
+        height: 15px;
+    }
+    .header-profile-user {
+        width: 23px!important;
+        height: 23px!important;
+    }
+
+    .content-first {
+        display: block;
+    }
+
+    .contetn-left {
+        margin-bottom: 15px;
+    }
+
+    .four-dived li {
+        width: 32%;
+    }
+
+    .earning-box {
+        margin-bottom: 30px;
+    }
+}
+@media  (min-width: 576px) and (max-width: 768px) {
+    .sidebar.close {
+        width: 0px;
+        display: none;
+    }
+    .home-section {
+        left: 0px;
+        width: 100%;
+    }
+    .sidebar.close ~ .home-section {
+        left: 0px;
+        width: 100%;
+        top: 0px;
+    }
+    .cross {
+        display: block!important;
+      }
+    .serch-w-input {
+        display: none;
+    }
+    .bar-icon {
+        padding-top: 13px;
+    }
+    .bar-icon i {
+        font-size: 25px;
+    }
+    .Profile-text {
+        display: none;
+    }
+    .width-auto-set {
+        height: auto!important;
+        background-color: transparent;
+        padding: 0px!important;
+        margin-left: 3px;
+    }
+    .dropbtn {
+        font-size: 18px!important;
+        font-weight: 400;
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+    }
+    .dropbtn img {
+        height: 15px;
+    }
+    .header-profile-user {
+        width: 23px!important;
+        height: 23px!important;
+    }
+    .content-first {
+        display: block;
+    }
+
+    .contetn-left {
+        margin-bottom: 15px;
+    }
+
+    .four-dived li {
+        width: 48%;
+    }
+    .earning-box {
+        margin-bottom: 30px;
+    }
+
+    .content-first {
+        display: block;
+    }
+
+    .contetn-left {
+        margin-bottom: 15px;
+    }
+
+    .four-dived li {
+        width: 48%;
+    }
+
+    .earning-box {
+        margin-bottom: 30px;
+    }
+}
+@media  (min-width: 280px) and (max-width: 576px) {
+    .sidebar.close {
+        width: 0px;
+        display: none;
+    }
+    .home-section {
+        left: 0px;
+        width: 100%;
+    }
+    .sidebar.close ~ .home-section {
+        left: 0px;
+        width: 100%;
+        top: 0px;
+    }
+    .cross {
+        display: block!important;
+      }
+    .serch-w-input {
+        display: none;
+    }
+    .bar-icon {
+        padding-top: 13px;
+    }
+    .bar-icon i {
+        font-size: 25px;
+    }
+    .Profile-text {
+        display: none;
+    }
+    .width-auto-set {
+        height: auto!important;
+        background-color: transparent;
+        padding: 0px!important;
+        margin-left: 3px;
+    }
+    .dropbtn {
+        font-size: 18px!important;
+        font-weight: 400;
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+    }
+    .dropbtn img {
+        height: 15px;
+    }
+    .header-profile-user {
+        width: 23px!important;
+        height: 23px!important;
+    }
+
+    .content-first {
+        display: block;
+    }
+
+    .contetn-left {
+        margin-bottom: 15px;
+    }
+
+    .four-dived li {
+        width: 100%;
+    }
+
+    .earning-box {
+        margin-bottom: 30px;
+    }
+
+    .custom-datepicker {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .add-product {
+        margin-left: 0px;
+    }
+
+    .position-inherit {
+        position: inherit;
+    }
+
+    .web-row .col {
+        width: 77px;
+    }
+
+    .dropdown-menu-lg {
+        min-width: 100%!important;
+        right: 0px;
+    }
+
+    .brand-flex {
+        width: 100%;
+    }
+
+    .notification-w {
+        width: 200px;
+    }
+
+    .flag {
+        right: -72px;
+    }
+
+    .profile-color {
+        right: 0px;
+    }
+
+    .sidebar.close .nav-links li .sub-menu {
+        display: none;
+      }
+      .sidebar.close {
+        width: 0;
+      }
+      .sidebar.close ~ .home-section {
+        width: 100%;
+        left: 0;
+      }
+}
